@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Layout Wordpress</title>
-    <link rel="stylesheet" href="./assets/master.css">
+    <link rel="stylesheet" href="./assets/css/master.css">
   </head>
   <body>
     <header>
-    <!-- header con logo -->
+    <!-- header con logo e sotto il menu -->
       <div class="row">
         <div class="col_100">
           <img src="./assets/img/logo.png" alt="logo">
@@ -23,40 +23,56 @@
       </div>
     </header>
     <main>
-    <!-- blocco giallo -->
-    <div id="marg" class="row">
-    <div class="col_100 margin bg_img_1">
-      <h3>Pretium ac placerat dui interdum nunc
-      <br>
-      in eros urna morbi</h3>
-      <p id="p_on_img">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </p>
+    <!-- immagine con sopra del testo -->
+    <div id="marg_top" class="row">
+     <div class="col_100 bg_img_1">
+       <h2 id="title_1">Pretium ac placerat dui interdum nunc
+       <br>
+       in eros urna morbi</h2>
+       <p id="text_on_img">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+         <br>
+         tempor incididunt ut labore et dolore magna aliqua.
+       </p>
+     </div>
     </div>
-      <!-- blocco ciano -->
-      <div class="row">
-        <div class="col_100 bg_cyan marg_top">
+      <!-- titolo con sottotitolo -->
+      <div id="marg_top" class="row">
+        <div class="col_100">
+          <h1 id="title_2">Leadership</h1>
+          <p id="p_title">Fertenum urna a libero tempus
+          </p>
         </div>
       </div>
-    </div>
-        <!-- blocco blu con sopra blocchi ciano -->
-      <div class="row">
-        <div class="col_100 bg_lightblue ">
-          <div class="col_20 bg_cyan">
+        <!-- 3 immagini affiancate con sotto del testo -->
+        <div id="marg_top" class="row">
+          <div class="col_20">
+            <img class="image" src="./assets/img/img-1.jpg" alt="immagine_a_sinistra">
+            <h3>Lorem</h3>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
           </div>
-          <div class="col_60 bg_cyan">
+          <div class="col_60">
+              <img class="image" src="./assets/img/banner-2.jpg" alt="immagine_banner_centrale">
+              <h3>Ipsum</h3>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dui libero, consectetur vitae imperdiet at, iaculis pulvinar purus. Donec semper nisi a mattis mattis. Maecenas accumsan tempor massa, sit amet facilisis odio. Praesent consequat dui quis rhoncus iaculis. Nullam ullamcorper varius ipsum vel luctus. Etiam congue, velit at posuere euismod, tellus mauris sagittis nibh, ac scelerisque nisl odio ut enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed venenatis dolor enim, ut venenatis erat tincidunt vel. Mauris efficitur lorem vitae tempus tempor. Fusce porttitor fringilla urna, in mattis ligula pulvinar eget. Vestibulum id felis pellentesque, cursus mauris non, facilisis orci. Duis justo neque, consequat vel commodo vel, blandit at diam. Etiam ligula neque, convallis ut fringilla a, pellentesque sed dui. Morbi ut odio at tellus imperdiet efficitur. Ut pellentesque, quam a accumsan euismod, nulla tellus cursus nunc, ac convallis nisi nibh id sem. Mauris efficitur lorem vitae tempus tempor. Fusce porttitor fringilla urna, in mattis ligula pulvinar eget. Vestibulum id felis pellentesque.Mauris efficitur lorem vitae tempus tempor. Fusce porttitor fringilla urna, in mattis ligula pulvinar eget. Vestibulum id felis pellentesque. Fusce porttitor fringilla urna, in mattis ligula pulvinar eget. Vestibulum id felis pellentesque.Mauris efficitur lorem vitae tempus tempor. Fusce porttitor fringilla urna, in mattis ligula pulvinar eget. Vestibulum id felis pellentesque.Fusce porttitor fringilla urna, in mattis ligula pulvinar eget. Vestibulum id felis pellentesque.Mauris efficitur lorem vitae tempus tempor. Fusce porttitor fringilla urna, in mattis ligula pulvinar eget. Vestibulum id felis pellentesque.
+              </p>
           </div>
-          <div class="col_20 bg_cyan">
+          <div class="col_20">
+              <img class="image" src="./assets/img/img-3.jpg" alt="immagine_a_destra">
+              <h3>Lorem</h3>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
           </div>
         </div>
-      </div>
-    </main>
-    <footer>
-      <!-- blocco viola -->
-      <div class="row">
-        <div class="col_100 bg_purple">
+      </main>
+      <footer>
+        <!-- footer con testo e simbolo -->
+        <div id="marg_top" class="row">
+          <div class="col_100">
+            <p class="text_footer">Designed with <span id="heart">&hearts;</span>
+            </p>
+          </div>
         </div>
-      </div>
-    </footer>
-  </body>
-</html>
+      </footer>
+    </body>
+  </html>
